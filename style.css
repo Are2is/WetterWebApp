@@ -1,0 +1,149 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #2bb9ed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 10%;
+    position: relative;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.center-content {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h1 {
+    font-family: 'TitleCloud';
+    margin: 0;
+}
+
+.uhrzeit {
+    font-size: 20px;
+}
+
+.container-date {
+    color: #2bb9e2;
+    margin-left: 10%;
+    z-index: 10;
+}
+
+.datum {
+    color: #2bb9e2;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+h2 {
+    color: #2bb9e2;
+    font-family: 'h2Cloud';
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.weather-container {
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: -200px;
+}
+
+#weather-info p {
+    margin: 10px 0;
+}
+
+#weather-icon {
+    width: 300px;
+    height: 250px;
+    margin-top: -50px;
+}
+
+.temperature {
+    display: flex;
+    justify-content: center;
+    font-family: 'h2Cloud';
+    color: #2bb9ed;
+    font-size: 180px;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    color: #2bb9ed;
+}
+
+@font-face {
+    font-family: 'TitleCloud';
+    src: url('fonts/KOMIKAX_.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'h2Cloud';
+    src: url('fonts/Hey Comic.ttf');
+    font-style: normal;
+}
+
+footer {
+    background-color: #2bb9ed;
+    color: #fff;
+    padding: 1% 1%;
+    margin-top: auto;
+}
+
+.pfooter {
+    padding: 0 0 0 2%;
+}
+
+a {
+    color: #fff;
+}
+
+.container-getWeather {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 10px 5px;
+    width: calc(20% - 20px);
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    width: 200px;
+    background-color: #2bb9ed;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1a96b9;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WetterWebApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cloud°</h1>
+        <div class="center-content">
+            <p class="uhrzeit" id="uhrzeit"></p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-date">
+            <h2>Heute</h2>
+            <div class="datum">
+                <div id="wochentag"></div>
+                <div id="datum"></div>
+            </div>
+        </div>
+
+        <div class="weather-container">
+            <div id="weather-info">
+                <p class="temperature" id="temperature"></p>
+                <img id="weather-icon" src="" alt="Wetter Icon" />
+            </div>
+            <p class="location" id="location"></p>
+        </div>
+
+        <div class="container-getWeather">
+            <input type="text" id="city" placeholder="Stadt eingeben">
+            <input type="text" id="country" placeholder="Land eingeben">
+            <div>
+                <button id="getWeather">Wetter anzeigen</button>
+                <button onclick="window.location.href='https://are2is.github.io/Bewerbung/';">Zurück zur Hauptseite</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="pfooter">
+            <strong>Impressum:</strong><br><br>
+            Aristeidis Kokas<br>
+            Schumacherstraße 21<br>
+            76275 Ettlingen, Deutschland<br><br>
+            <strong>Kontakt:</strong><br><br>
+            E-Mail: ariskokas0112@gmail.com<br>
+            Telefon: +49 176 84304378<br>
+        </p>
+        <div class="vonAres">
+            <p><strong>Den Quellcode mit Erklärung finden Sie in der PDF, die der E-Mail beigefügt ist.</strong></p>
+            <p>©2025 von <strong><a href="https://www.instagram.com/are2is/">Aristeidis Kokas</a></strong></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
