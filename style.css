@@ -44,13 +44,13 @@ h1 {
 }
 
 .container-date {
-    color: #2bb9e2;
+    color: rgb(255, 255, 255);
     margin-left: 10%;
     z-index: 10;
 }
 
 .datum {
-    color: #2bb9e2;
+    color: rgb(255, 255, 255);
     font-size: 20px;
     margin-top: 5px;
 }
