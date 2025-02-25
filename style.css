@@ -3,7 +3,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    background-image: url="Hintergrund.png";
+    background-image: url('Hintergrund.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
