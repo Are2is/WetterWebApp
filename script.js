@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const stunden = String(jetzt.getHours()).padStart(2, '0');
         const minuten = String(jetzt.getMinutes()).padStart(2, '0');
         const sekunden = String(jetzt.getSeconds()).padStart(2, '0');
-        document.getElementById('uhrzeit').textContent = `${stunden}:${minuten}:${sekunden} Uhr`;
+        document.getElementById('uhrzeit').textContent = `${stunden}:${minuten} Uhr`;
     }, 1000);
 
     function zeigeDatum() {
