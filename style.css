@@ -3,7 +3,16 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+  
 }
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Condensed.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 header {
     background-color: #2bb9ed;
