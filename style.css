@@ -87,6 +87,7 @@ h2 {
     display: flex;
     justify-content: center;
     color: #2bb9ed;
+    font-size: 30px;
 }
 
 @font-face {
