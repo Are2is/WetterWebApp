@@ -3,10 +3,6 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    background-image: url('Hintergrund.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 header {
@@ -44,13 +40,13 @@ h1 {
 }
 
 .container-date {
-    color: rgb(255, 255, 255);
+    color: #2bb9e2;
     margin-left: 10%;
     z-index: 10;
 }
 
 .datum {
-    color: rgb(255, 255, 255);
+    color: #2bb9e2;
     font-size: 20px;
     margin-top: 5px;
 }
